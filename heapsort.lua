@@ -7,6 +7,7 @@ function heapSort(a)
 		c = c - 1
 		siftDown(a,1,c)
 	end
+	return a
 end
 
 function heap(a,c)
